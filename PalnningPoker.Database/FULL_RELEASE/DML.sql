@@ -1,0 +1,6 @@
+﻿INSERT INTO [dbo].[HtmlTemplate] ([TamplateId],[TamplateTypeId],[TamplateName],[Heading],[Subject],[HtmlText],[IsActive],[CreatedBy],[CreatedOn],[UpdatedBy],[UpdatedOn],[RowGuid])     
+		VALUES(1001,1001,'USER_REGISTRATION','User Registration','BotCard - User Registration!','Welcome User, Successfully registered with BotCard system!',1,1001,GETDATE(),1001,GETDATE(),'3B9BDA77-5B7C-4390-B0C8-69FB8A724FDD')     
+INSERT INTO [dbo].[HtmlTemplate] ([TamplateId],[TamplateTypeId],[TamplateName],[Heading],[Subject],[HtmlText],[IsActive],[CreatedBy],[CreatedOn],[UpdatedBy],[UpdatedOn],[RowGuid])     
+		VALUES(1002,1001,'RESET_PASSWORD_LINK','ResetPassword Link','BotCard - Reset Password!','Dear User, Please click to change your password [$RESET_PASSWORD_URL$]!',1,1001,GETDATE(),1001,GETDATE(),'6D0D9C40-17F1-4D87-8CBE-D7365C0AB780')     
+INSERT INTO [dbo].[HtmlTemplate] ([TamplateId],[TamplateTypeId],[TamplateName],[Heading],[Subject],[HtmlText],[IsActive],[CreatedBy],[CreatedOn],[UpdatedBy],[UpdatedOn],[RowGuid])     
+		VALUES(1003,1001,'ROLE_ALLOCATION','Role Allocation','BotCard - Role Allocated!','Dear User, Role has been assigned to you!',1,1001,GETDATE(),1001,GETDATE(),'D0C599B1-E0B1-4528-B389-89B162D30B50')     

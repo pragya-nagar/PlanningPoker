@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="5.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.4" />
+    <PackageReference Include="MimeKit" Version="2.7.0" />
+    <PackageReference Include="NETCore.MailKit" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlanningPoker.Common\PlanningPoker.Common.csproj" />
+    <ProjectReference Include="..\PlanningPoker.DataContract\PlanningPoker.DataContract.csproj" />
+    <ProjectReference Include="..\PlanningPoker.Domain\PlanningPoker.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

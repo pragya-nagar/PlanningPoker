@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/PlanningPoker/bin/Debug/netcoreapp2.2
+/PlanningPoker.Action/bin/Debug/netcoreapp3.1
+/PlanningPoker.Action/obj
+/PlanningPoker.Common/bin/Debug/netcoreapp3.1
+/PlanningPoker.Common/obj
+/PlanningPoker.DataContract/bin/Debug/netcoreapp3.1
+/PlanningPoker.DataContract/obj
+/PlanningPoker.Domain/bin/Debug/netcoreapp3.1
+/PlanningPoker.Domain/obj
+/PlanningPoker.Repository/bin/Debug/netcoreapp3.1
+/PlanningPoker.Repository/obj
+/PalnningPoker.Database/PalnningPoker.Database.jfm
+/PalnningPoker.Database/PalnningPoker.Database.dbmdl

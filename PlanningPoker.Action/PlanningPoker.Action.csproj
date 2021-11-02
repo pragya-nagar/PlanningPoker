@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlanningPoker.DataContract\PlanningPoker.DataContract.csproj" />
+    <ProjectReference Include="..\PlanningPoker.Domain\PlanningPoker.Domain.csproj" />
+    <ProjectReference Include="..\PlanningPoker.Repository\PlanningPoker.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

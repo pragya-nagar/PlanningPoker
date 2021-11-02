@@ -1,0 +1,482 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Poker.API\\poker2\\PlanningPoker\\PlanningPoker.WebApi.csproj": {}
+  },
+  "projects": {
+    "E:\\Poker.API\\poker2\\PlanningPoker.Action\\PlanningPoker.Action.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poker.API\\poker2\\PlanningPoker.Action\\PlanningPoker.Action.csproj",
+        "projectName": "PlanningPoker.Action",
+        "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Action\\PlanningPoker.Action.csproj",
+        "packagesPath": "C:\\Users\\14411\\.nuget\\packages\\",
+        "outputPath": "E:\\Poker.API\\poker2\\PlanningPoker.Action\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\14411\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj"
+              },
+              "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj"
+              },
+              "E:\\Poker.API\\poker2\\PlanningPoker.Repository\\PlanningPoker.Repository.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Repository\\PlanningPoker.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj",
+        "projectName": "PlanningPoker.Common",
+        "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj",
+        "packagesPath": "C:\\Users\\14411\\.nuget\\packages\\",
+        "outputPath": "E:\\Poker.API\\poker2\\PlanningPoker.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\14411\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj",
+        "projectName": "PlanningPoker.DataContract",
+        "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj",
+        "packagesPath": "C:\\Users\\14411\\.nuget\\packages\\",
+        "outputPath": "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\14411\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj",
+        "projectName": "PlanningPoker.Domain",
+        "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj",
+        "packagesPath": "C:\\Users\\14411\\.nuget\\packages\\",
+        "outputPath": "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\14411\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poker.API\\poker2\\PlanningPoker.Repository\\PlanningPoker.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poker.API\\poker2\\PlanningPoker.Repository\\PlanningPoker.Repository.csproj",
+        "projectName": "PlanningPoker.Repository",
+        "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Repository\\PlanningPoker.Repository.csproj",
+        "packagesPath": "C:\\Users\\14411\\.nuget\\packages\\",
+        "outputPath": "E:\\Poker.API\\poker2\\PlanningPoker.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\14411\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj"
+              },
+              "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj"
+              },
+              "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Poker.API\\poker2\\PlanningPoker\\PlanningPoker.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Poker.API\\poker2\\PlanningPoker\\PlanningPoker.WebApi.csproj",
+        "projectName": "PlanningPoker.WebApi",
+        "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker\\PlanningPoker.WebApi.csproj",
+        "packagesPath": "C:\\Users\\14411\\.nuget\\packages\\",
+        "outputPath": "E:\\Poker.API\\poker2\\PlanningPoker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\14411\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Poker.API\\poker2\\PlanningPoker.Action\\PlanningPoker.Action.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Action\\PlanningPoker.Action.csproj"
+              },
+              "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Common\\PlanningPoker.Common.csproj"
+              },
+              "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.DataContract\\PlanningPoker.DataContract.csproj"
+              },
+              "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj": {
+                "projectPath": "E:\\Poker.API\\poker2\\PlanningPoker.Domain\\PlanningPoker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
